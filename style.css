@@ -1,0 +1,142 @@
+@font-face {
+    src: url(https://storage.cloudconvert.com/tasks/ab61d1ca-589d-4c92-8564-d553fcbd1a21/Proxima-Nova-Black.woff2?AWSAccessKeyId=cloudconvert-production&Expires=1667060811&Signature=nFx3MQ1rZ1tedqHFpcue%2FBeu9Ag%3D&response-content-disposition=attachment%3B%20filename%3D%22Proxima-Nova-Black.woff2%22&response-content-type=font%2Fwoff2);
+    font-family: Proxima-Nova-Black;
+}
+
+@font-face {
+    src: url(https://cdn.shopify.com/s/files/1/0576/6424/1717/files/ProximaNovaA-Regular.woff2?v=1663859390);
+    font-family: ProximaNovaA-Regular;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.container {
+    
+    background-image: url(https://cdn.shopify.com/s/files/1/0576/6424/1717/files/shutterstock_784592905.png?v=1666974001);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 915px;
+}
+.wrapper {
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.logo-banner {
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.launch-time {
+    display: flex;
+    width: 100%;
+}
+
+.launch-time div {
+    flex-basis: 500px;
+    width: 100%;
+   text-align: center;
+}
+
+.launch-time div p {
+    font-size: 64px;
+    padding: 2%;
+    width: 100%;
+
+}
+
+h6 {
+    padding: 15%;
+}
+
+.img-info h1 {
+    font-size: 49px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.img-info {
+    margin-top: 1%;
+    font-family: Proxima-Nova-Black;
+}
+
+.img-info h1 span {
+    font-size: 49px;
+    font-weight: 800;
+    color: #ab2328;
+    text-align: center;
+}
+
+.gambling-snipe {
+    font-family: ProximaNovaA-Regular;
+    text-align: center;
+    margin-top: 5%;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-banner {
+        display: block;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-info h1 {
+       font-size: 100px; 
+       text-align-last: center;
+    }
+    
+    .img-info h1 span {
+        font-size: 100px;
+        text-align-last: center;
+        padding-top: 11%;
+    }
+
+    .container {
+        width: 100%;
+        height: 1180px;
+        background-position: center;
+    }
+
+    .launch-time div p {
+        font-size: 84px;
+        padding: 2%;
+        width: 100%;
+    
+    }
+
+   * h6 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .launch-time div p {
+        font-size: 150px;
+    }
+
+    .logo-banner {
+        width: 40%;
+        padding: 2%;
+    }
+
+    .img-info h1 {
+        font-size: 120px; 
+        
+     }
+     
+     .img-info h1 span {
+         font-size: 120px;
+         padding-top: 11%;
+     }
+
+}
